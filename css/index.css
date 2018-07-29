@@ -1,0 +1,213 @@
+<style type="text/css">
+	.ens{}
+	html{}
+	#background{
+		margin:0 auto 0 auto;
+		height: 50vh;
+		background-image:url(../images/mechanical-1419946_1920.jpg), url(../images/car-1751750_1920.jpg);
+		background-size: 51% 100%;
+		background-repeat: no-repeat, repeat;
+		max-width: 2000px;
+			}
+	body{
+		max-width: 94%;
+		margin:auto;
+		padding: 0;
+	}
+	header{
+
+		background: linear-gradient(to right, #2CF5E9 , yellow);
+		height:55px;
+	}
+	header>a{
+		display: inline-block;
+		width:65px;
+		margin-left:6%;
+		text-decoration: none;
+		font-size:0.7em;
+		color: #fff;
+		border: 2px solid #56616c;
+		border-radius: 5px;
+ 		background: linear-gradient(#6C7A89, #333);
+    	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.45);
+		text-align: center;
+    	font-style: oblique;
+	}
+	header>a:hover{
+		border-style: outset;
+		font-weight: bold;
+	}
+	header>a:active{
+		border-style: inset;
+	}
+	.arrow-up {
+			position: absolute;
+			top: 0;
+			left: -5em;
+			border-top: 0px solid #2CF5E9;
+			border-left: 0px solid transparent;
+			
+			border-right: 5em solid #2CF5E9;
+			border-bottom: 3.46em solid transparent;
+			}
+	.arrow-down {
+			position: absolute;
+			top: 0;
+			right: -5em;
+			
+			top: 0;
+			border-top: 0px solid yellow;
+			border-left: 5em solid yellow;
+			
+			border-right: 0px solid transparent;
+			border-bottom: 3.46em solid transparent;
+			}
+	.name{
+		font-family: 'Marck Script', cursive;
+		font-size: 2.8em;
+		text-shadow:2px  1px #ABABAB;
+	}
+	#fullHeader{
+		
+		display: inline-block;
+		box-sizing: border-box;
+		position: relative;
+		top:0;
+		left: 10%;
+		width: 80%;
+
+	}
+	.clear{
+		float: none;
+	}
+	/*#############################################################################
+	#############################################################################
+	#############################################################################
+	*/
+	
+	.First_h1{
+		margin: 0 auto 0 auto;
+		max-width: 2000px;
+		background: linear-gradient(to right, #2CF5E9 , yellow);
+		text-align: center;
+		font-size: 2em;
+		}
+
+	.container{
+		
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5vh;
+		padding-bottom: 5em;
+		width: 400px;
+		height: 250px;
+	}
+	.center{
+		width: 1050px;
+		margin:0 auto 0 auto;
+	}
+	.col{
+		display: inline-block;
+		/*border:2px solid red;*/
+		width: 500px;
+	}
+	.right_col{
+		margin-left: 20px;
+	}
+		
+	#gearbox{
+		
+		background-image: url(../images/mechanical-engineering-2993233_1280.jpg);
+		background-repeat: no-repeat;
+		background-size:100% 100%;
+		width: 400px;
+		height: 300px;
+	}
+	#hydraulic_rack{
+
+		background-image: url(../images/hydraulic_rack.jpg);
+		background-size:contain;
+		background-repeat: no-repeat;
+		width: 400px;
+		height: 300px;
+	}
+	#turbo{
+		background-image: url(../images/engine-2682239_1280.jpg);
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+		width: 400px;
+		height: 300px;
+	}
+	#tire{
+		background-image: url(../images/winter-tires-2861853_1280.jpg);
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+		width: 400px;
+		height: 300px;
+	}
+	h2{
+		text-align: center;
+		background: linear-gradient(to right, #2CF5E9 , yellow);
+		border-radius:1000px 25px; 
+	}
+	#rss{
+		/*margin-left: 20vh;*/
+		margin-top: 5vh;
+		font-size: 1.6em;
+		font-weight: bold;
+		border-bottom: 2px solid grey;
+		width: 8em;
+	}
+	#button_to_top{
+		position: fixed;
+		right: 1em;
+		bottom: 1em;
+		width: 45px;
+		height: 45px;
+		font-size: 3em;
+
+
+	}
+	#button_to_top:active {
+		color:#21F921;
+	}
+	#button_to_top:link{
+		color:#69066b;
+	}
+	
+/*
+	#############################################################################
+	#############################################################################
+	#############################################################################
+	#############################################################################
+	*/
+	footer{
+		margin: 100px auto 0px auto;
+		padding-top: 10px;
+		padding-bottom: 25px;
+		text-align: center;
+		max-width: 2000px;
+		height: 3em;
+	 	background-color: grey;	
+	 	color:white;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	#phone{
+		padding-right: 3px;
+	}
+	.separation{
+		display:inline-block;
+		border-left:3px solid #FFC343;
+		border-right:3px solid #FFC343;
+		padding-left:3px;
+		padding-right:3px;
+	}
+	#email{
+		display:inline-block;
+		color:blue;
+		padding-left:3px;  
+	}
+</style>

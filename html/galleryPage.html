@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="autor" name="Yordan Lubenov">
+	<title>Автосервиз-Любенов</title>
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/galleryPage.css">
+	<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+</head>
+<body>
+		<div id="background">
+			<div id="fullHeader">
+			
+			<div id="to_top" class="arrow-up"></div>
+				<header>
+					<span class="name">Автосервиз-Любенов</span>			
+					<a href="../index.html">НАЧАЛО</a>
+					<a href="services.html">УСЛУГИ</a>
+					<a href="#">ГАЛЕРИЯ</a>
+					<a href="contact_page.html">КОНТАКТИ</a>
+				</header>
+			<div class="arrow-down"></div>
+
+				<div class="clear"></div>
+		</div>
+		</div>
+
+	<main>
+		<h2>Галерия</h2>
+
+	    <a href="http://lorempixel.com" target="_blank"></a>
+	    <div class="button">
+			<button onclick="prevImage();">Назад</button>
+			<button onclick="nextImage();">Напред</button>
+		</div>
+		<img id="slider" src="">
+		
+		<a id="button_to_top" target="_top" href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
+	</main>
+			
+	<footer class="footer">
+		<div>
+			<div class="bold">ЗА ВРЪЗКА С НАС</div>
+			<div>бул."Васил Априлов" 23 гр. София </div>
+			<i id="phone" class="fa fa-phone" aria-hidden="true"></i><div class="separation">
+		 0883233..., 083232...<i class="far fa-envelope"></i></div><div id="email">car-service@abv.bg</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		var imageURLs = ['../images/for_the_gallery/car-35079_1280.png',
+						'../images/for_the_gallery/car-2469429_1920.jpg',
+						'../images/for_the_gallery/motor-2595269_1280.jpg',
+						'../images/for_the_gallery/toolbox-2645700_1280.jpg',
+						'../images/for_the_gallery/transport-3175766_1920.jpg'
+						];
+		var i = 0;
+
+		var imgNode = document.getElementById("slider");
+
+		imgNode.src = imageURLs[i];
+
+		function nextImage(){
+		 
+		  i = (i+1) % imageURLs.length;
+
+
+		  imgNode.src = imageURLs[i];
+
+		  console.log(`i = ${i}`);
+			}
+
+		function prevImage(){
+				
+		  i = (i+4) % imageURLs.length;
+
+		  imgNode.src = imageURLs[i];
+
+		}	
+	</script>
+</body>
+</html>
